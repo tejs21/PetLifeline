@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".MainActivity4">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        android:elevation="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="NGO Registration"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/purple"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:id="@+id/ngoname"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8sp"
+                android:hint="NGO Name"
+                android:textColorHint="@color/hint"
+                android:padding="8sp"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:id="@+id/ngophone"
+                android:drawableLeft="@drawable/baseline_phone_24"
+                android:drawablePadding="8sp"
+                android:inputType="number"
+                android:hint="Phone No."
+                android:textColorHint="@color/hint"
+                android:padding="8sp"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:id="@+id/ngoid"
+                android:drawableLeft="@drawable/baseline_credit_card_24"
+                android:drawablePadding="8sp"
+                android:hint="NGO ID"
+                android:textColorHint="@color/hint"
+                android:inputType="number"
+                android:padding="8sp"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:id="@+id/nadd"
+                android:drawableLeft="@drawable/baseline_home_24"
+                android:drawablePadding="8sp"
+                android:hint="Address"
+                android:textColorHint="@color/hint"
+                android:padding="8sp"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:id="@+id/npass"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8sp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColorHint="@color/hint"
+                android:padding="8sp"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:id="@+id/nconpass"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8sp"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:textColorHint="@color/hint"
+                android:padding="8sp"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="200sp"
+                android:layout_gravity="center"
+                android:layout_height="60sp"
+                android:text="Register"
+                android:id="@+id/register"
+                android:textSize="18sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="2sp"
+                app:cornerRadius="20sp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
