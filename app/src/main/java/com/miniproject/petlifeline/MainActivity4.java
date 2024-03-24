@@ -1,7 +1,5 @@
 package com.miniproject.petlifeline;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity4 extends AppCompatActivity {
 
@@ -67,7 +67,8 @@ public class MainActivity4 extends AppCompatActivity {
         });
     }
     public void registerme(){
-        Intent intent = new Intent(this,homepage.class);
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+        Toast.makeText(getApplicationContext(),"Registration Successfull",Toast.LENGTH_SHORT).show();
     }
 }

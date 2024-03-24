@@ -71,7 +71,8 @@ public class MainActivity5 extends AppCompatActivity {
         });
     }
     public void registerme(){
-        Intent intent = new Intent(this,homepage.class);
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+        Toast.makeText(getApplicationContext(),"Registration Successfull",Toast.LENGTH_SHORT).show();
     }
 }

@@ -1,7 +1,5 @@
 package com.miniproject.petlifeline;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
                     pass.requestFocus();
                     pass.setError("Enter valid Password");
                 } else {
-                    Toast.makeText(getApplicationContext(),"Login Successfull",Toast.LENGTH_SHORT).show();
-                    loginme();
+                    Intent intent = new Intent(getApplicationContext(), homepage.class);
+                    startActivity(intent);
                 }
             }
         });
@@ -56,11 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 opennewactivity();
             }
         });
-    }
-
-    public void loginme(){
-        Intent intent = new Intent(this, homepage.class);
-        startActivity(intent);
     }
     public void opennewactivity(){
         Intent intent = new Intent(this, MainActivity3.class);

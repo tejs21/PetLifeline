@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "447160410219",
+    "firebase_url": "https://petlifeline-e080a-default-rtdb.firebaseio.com",
+    "project_id": "petlifeline-e080a",
+    "storage_bucket": "petlifeline-e080a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447160410219:android:aeb73051e58f7e4719512e",
+        "android_client_info": {
+          "package_name": "com.miniproject.petlifeline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdU8Qrl5_k_-3bj-OnzzNXavOsTZKZoCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

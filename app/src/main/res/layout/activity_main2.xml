@@ -84,33 +84,35 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#2D2929"
-                    android:text=""/>
-                <ImageView
-                    android:layout_width="30sp"
-                    android:layout_height="30sp"
-                    android:layout_margin="10sp"
-                    android:layout_marginLeft="90sp"
-                    android:src="@drawable/cat" />
+                    android:id="@+id/cat"
+                    android:text="Cat"/>
+<!--                <ImageView-->
+<!--                    android:layout_width="30sp"-->
+<!--                    android:layout_height="30sp"-->
+<!--                    android:layout_margin="10sp"-->
+<!--                    android:layout_marginLeft="90sp"-->
+<!--                    android:src="@drawable/cat" />-->
 
                 <View
                     android:layout_width="3sp"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="25sp"
+                    android:layout_marginLeft="70sp"
                     android:background="@color/line"/>
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#2D2929"
-                    android:layout_marginLeft="30sp"
-                    android:text=""/>
+                    android:layout_marginLeft="60sp"
+                    android:id="@+id/dog"
+                    android:text="Dog"/>
 
-                <ImageView
-                    android:layout_width="30sp"
-                    android:layout_height="30sp"
-                    android:layout_margin="10sp"
-                    android:layout_marginLeft="90sp"
-                    android:src="@drawable/dog" />
+<!--                <ImageView-->
+<!--                    android:layout_width="30sp"-->
+<!--                    android:layout_height="30sp"-->
+<!--                    android:layout_margin="10sp"-->
+<!--                    android:layout_marginLeft="90sp"-->
+<!--                    android:src="@drawable/dog" />-->
             </RadioGroup>
 
             <EditText
@@ -173,6 +175,13 @@
                 android:layout_marginTop="20sp"
                 android:layout_marginBottom="2sp"
                 app:cornerRadius="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/uloginreg"
+                android:layout_gravity="center"
+                android:text="Already Registered, Login"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
